@@ -1,4 +1,4 @@
-## GITHUB COMMAND LINE SAAT INISIALISASI PROJECT..
+## GITHUB COMMAND LINE SAAT INISIALISASI PROJECT
 
 | Command | Description |
 | --------| :-----------: |
