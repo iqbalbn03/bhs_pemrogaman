@@ -1,0 +1,33 @@
+@startuml
+
+actor Mahasiswa
+participant "Masalah" as masalah
+participant "Joki Tugas Kalkulus" as joki
+participant "Platform Joki Tugas" as platform
+participant "Pemilihan Tugas" as pemilihan
+participant "Pengerjaan Tugas" as pengerjaan
+participant "Pengiriman Solusi" as pengiriman
+participant "Feedback Mahasiswa" as feedback
+
+Mahasiswa -> masalah : Mengalami kesulitan
+masalah -> Mahasiswa : Kesulitan dalam memahami konsep kalkulus dan menyelesaikan tugas
+
+Mahasiswa -> platform : Membuka platform joki tugas kalkulus
+platform -> Mahasiswa : Tampilan platform joki tugas
+
+Mahasiswa -> pemilihan : Memilih tugas kalkulus
+pemilihan -> Mahasiswa : Menampilkan daftar tugas
+
+Mahasiswa -> pengerjaan : Mengirimkan tugas yang dipilih
+pengerjaan -> Mahasiswa : Proses pengiriman tugas
+
+pengerjaan -> joki : Menerima tugas
+joki -> pengerjaan : Mengerjakan tugas
+
+pengerjaan -> pengiriman : Mengirimkan solusi tugas
+pengiriman -> Mahasiswa : Pengiriman solusi tugas
+
+Mahasiswa -> feedback : Memberikan umpan balik
+feedback -> Mahasiswa : Proses umpan balik
+
+@enduml
