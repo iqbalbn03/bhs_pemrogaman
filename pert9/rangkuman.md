@@ -98,7 +98,7 @@ Set adalah koleksi data yang tidak berurutan (unordered), tidak dapat diubah (un
     - **Contoh**: `5 not in s`
 
 
-Dengan menggunakan fungsi dan metode di atas, Anda dapat melakukan berbagai operasi pada set dengan mudah dan efisien.
+
 
 ### Dictionary
 Dictionary adalah koleksi data yang menyimpan pasangan kunci-nilai (key-value pairs). Setiap kunci harus unik dan dapat digunakan untuk mengakses nilai yang terkait. Berikut adalah beberapa operasi dan fungsi yang dapat dilakukan pada dictionary:
