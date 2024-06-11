@@ -1,6 +1,8 @@
 # Rangkuman Pertemuan 9
 
-Berikut adalah rangkuman dalam bahasa Indonesia tentang definisi array, set, dan dictionary:
+**Nama : Muhamad Iqbal Al Kautsar**
+
+**Nim : 20230801032**
 
 ### Array
 Array adalah struktur data yang terdiri dari elemen-elemen yang memiliki tipe data yang sama, disimpan dalam lokasi memori yang berurutan. Array memungkinkan akses cepat ke elemen-elemennya melalui indeks. Contoh penggunaan array termasuk menyimpan daftar angka, nama, atau objek lain yang memiliki tipe data yang sama.
