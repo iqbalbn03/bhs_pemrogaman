@@ -19,14 +19,17 @@ void displayBook(Book book) {
 }
 
 int main() {
-    cout << "Nama : Muhamad Iqbal Al Kautsar" << endl;
-    cout << "NIM : 20230801032" << endl;
+    
     stack<Book> bookStack; // Tumpukan buku
 
     while (true) {
         system("clear"); // clear screen versi linux/wsl
         //system("cls") untuk versi windows
 
+        cout << "Nama : Muhamad Iqbal Al Kautsar" << endl;
+        cout << "NIM : 20230801032" << endl;
+        cout << endl;
+        
         cout << "Operasi yang tersedia: " << endl;
         cout << "1. Push (menambahkan buku)" << endl;
         cout << "2. Pop (menghapus buku paling atas)" << endl;
