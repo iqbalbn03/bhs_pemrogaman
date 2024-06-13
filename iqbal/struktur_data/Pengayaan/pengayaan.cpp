@@ -19,6 +19,8 @@ void displayBook(Book book) {
 }
 
 int main() {
+    cout << "Nama : Muhamad Iqbal Al Kautsar" << endl;
+    cout << "NIM : 20230801032" << endl;
     stack<Book> bookStack; // Tumpukan buku
 
     while (true) {
